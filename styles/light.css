@@ -12,3 +12,43 @@
   --text-color: #353430;
   --background-color: #FFF1F7;
 }
+
+:root.theme-light .decor-item {
+  display: none;
+}
+
+:root.theme-light .header__theme-menu-button {
+  color: var(--text-color);
+}
+
+:root.theme-light .header__theme-menu-button_active {
+  border: 1px solid var(--text-color);
+}
+
+:root.theme-light .header__theme-menu-button:focus-visible {
+  border-bottom: 1px solid var(--text-color);
+}
+
+.header__theme-menu-button:hover {
+  border: 1px solid rgba(53, 52, 48, 0.4);
+}
+
+:root.theme-light .header__title {
+  -webkit-text-stroke-width: 0;
+}
+
+:root.theme-light .decorated-zone::before {
+  border-top: 1px solid var(--text-color);
+  border-right: 1px solid var(--text-color);
+}
+
+:root.theme-light .decorated-zone::after {
+  border-bottom: 1px solid var(--text-color);
+  border-left: 1px solid var(--text-color);
+}
+
+:root.theme-light .card__title {
+  color: var(--text-color);
+}
+
+
