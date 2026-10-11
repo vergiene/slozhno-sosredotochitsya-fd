@@ -6,4 +6,13 @@
 
 :root.theme-dark {
   --cover-image: url("../images/cover-image-dark.png");
+  --accent-color: #ff0070;
+  --title-color: #db00ff;
+  --subtitle-color: #ff0070;
+  --main-color: #000028;
+  --background-color: #000028;
+  --text-color: #f1b2ce;
+  --ui-color: #ff0070;
+  --ui-color-hover: #ff007066;
+  --decor-color: var(--accent-color);
 }

@@ -3,14 +3,18 @@
   и их переопределение под различные устройства
 */
 :root {
-  --cover-image: url('../images/cover-image.png');
+  --cover-image: url("../images/cover-image-dark.png");
   --accent-color: #ff0070;
   --title-color: #db00ff;
+  --subtitle-color: #ff0070;
   --main-color: #000028;
   --background-color: #000028;
+  --text-color: #f1b2ce;
+  --ui-color: #ff0070;
+  --ui-color-hover: #ff007066;
+  --decor-color: var(--accent-color);
   --font: 'IBM Plex Mono';
   --title-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  --text-color: #f1b2ce;
 }
 
 @media (min-width: 768px) {
